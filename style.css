@@ -1,0 +1,136 @@
+* {
+    font-family: 'Inter', sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+#tituloPagina {
+    font-size: 60px;
+    font-weight: 600;
+    line-height: 72px;
+    letter-spacing: -0.025em;
+    text-align: left;
+
+    padding: 200px 0px 15px 80px;
+}
+
+#subtituloPagina {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+
+    padding: 0px 0px 150px 80px;
+}
+
+#websiteHeader {
+    background-color: #303030;
+    color: #FFFFFF;
+}
+
+#websiteBigNumbers {
+    padding: 60px 0px 60px 200px;
+    background-color: #F9F9F9;
+    display: grid;
+    grid-auto-flow: column;
+
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    margin: 0px 0px 6px 0px;
+}
+
+.textoInformativo>p {
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 28px;
+    margin: 0px 0px 6px 0px;
+}
+
+#pictureSection {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 100px 80px 100px 80px;
+}
+
+#pictureDescription {
+    text-align: left;
+    width: 1000px;
+
+    font-size: 28px;
+    font-weight: 200;
+    line-height: 34px;
+
+    padding: 0px 25px 0px 0px;
+}
+
+#tituloPictureSection {
+
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 48px;
+    letter-spacing: 0px;
+
+    margin-bottom: 25px;
+}
+
+#formSection {
+    background-color: #303030;
+    padding: 50px 0px 50px 0px;
+    text-align: center;
+    display: block;
+}
+
+#tituloForm {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 48px;
+    margin-bottom: 25px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+
+input {
+
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: 700;
+    text-align: left;
+
+    width: 450px;
+    height: 62px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+
+    margin: 15px;
+    border: 0px;
+    padding-left: 10px;
+}
+
+button {
+
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+
+    width: 250px;
+    height: 64px;
+    border-radius: 10px;
+    background: #C07212;
+    border: 0px;
+    margin: 15px;
+    color: #FFFFFF;
+
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #cc9450;
+    transform: translateY(-7px);
+    box-shadow: 0px 15px 20px #361f0388;
+    transition-duration: 0.5s;
+}
